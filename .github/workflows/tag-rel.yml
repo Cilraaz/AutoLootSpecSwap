@@ -49,5 +49,5 @@ jobs:
           asset_name: LootSpecSwapper-${{ env.tag }}.zip
           asset_content_type: application/zip
       # Use the BigWigs packager for Wago output
-      - name: Package and Release
-        uses: BigWigsMods/packager@v1
+      #- name: Package and Release
+      #  uses: BigWigsMods/packager@v2
